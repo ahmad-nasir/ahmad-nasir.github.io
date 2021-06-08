@@ -23,9 +23,9 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image: url(shop.png);
   background-size: cover;
-  color: white;
+  color: black;
   text-align: center;
 }
 
@@ -41,27 +41,12 @@ a {
   margin-bottom: 3px;
 }
 
-.btn-wrapper {
-  text-align: center;
-  margin: 20px 0;
-}
 
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
+.blue {
   background-color: #3b5998;
   margin-right: 10px;
 }
 
-.twitter {
-  background-color: #55acee;
-}
 
 .btn {
   padding: 12px 24px;
@@ -89,13 +74,14 @@ header {
   z-index: 10;
 }
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
-
 .header-left {
   float: left;
+}
+.header-left p {
+  margin: 20px;
+  color: white;
+  font-size: large;
+  font-weight: bold;
 }
 
 .header-right {
@@ -124,13 +110,6 @@ header {
   display: none;
 }
 
-.lesson-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
-}
 
 .heading {
   padding-top: 80px;
@@ -142,51 +121,8 @@ header {
   font-weight: normal;
 }
 
-.lesson {
-  float: left;
-  width: 25%;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
-}
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 15px;
-  color: #b3aeb5;
-}
-
 .heading h3 {
   font-weight: normal;
-}
-
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
 }
 
 footer img {
@@ -202,3 +138,78 @@ footer {
   padding-top: 30px;
   padding-bottom: 20px;
 }
+
+/*code Ahmad nasir 08 juni 2021*/
+.left-main {
+    float:left;
+    width: 50%;
+    padding: 5px;
+}
+.left-main h3 {
+    text-align: center;
+}
+.right-main {
+    float:left;
+    width: 50%;
+    padding: 5px;
+}
+.right-main h3 {
+    text-align: center;
+}
+.left-top-main {
+  color: white;
+  background-color: #f53d2d;
+  margin-bottom: 5px;
+}
+.left-top-main h4,.left-top-main a {
+  margin-left: 10px;
+}
+.left-title-top-main {
+  width: 100%;
+  display: inline-block;
+  background-image: url(top.png);
+}
+.left-tmb-top-main {
+  width: 50%;
+  display: inline;
+}
+.left-tmb-top-main img {
+  width: 100px;
+  height: 100px;
+}
+.left-2-column-main {
+  color: black;
+}
+
+.post-shortcut {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+.left-2-column-main .post-shortcut {
+  padding: 5px;
+  display: inline-block;  
+  text-align: center;
+}
+
+
+.bg-pink-tua {
+  background-color: #ffc7c3;
+}
+
+.bg-grey {
+  background-color: #ccc;
+}
+
+@media screen and (max-width: 768px) {
+  .left-main,.right-main {
+    clear: both;;
+    width: 100%;
+    padding: 5px;
+  }
+  .right-main img {
+    width: 100%;
+    height: 400px;
+  }
+}
+/*end code Ahmad nasir*/
