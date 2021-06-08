@@ -16,7 +16,7 @@ a {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -39,6 +39,30 @@ a {
 .top-wrapper p {
   opacity: 0.7;
   margin-bottom: 3px;
+}
+
+
+.blue {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
 }
 
 header {
@@ -116,29 +140,6 @@ footer {
 }
 
 /*code Ahmad nasir 08 juni 2021*/
-.blue {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
 .left-main {
     float:left;
     width: 50%;
@@ -152,11 +153,11 @@ footer {
     width: 50%;
     padding: 5px;
 }
-.right-main img {
-  width:100%;
-}
 .right-main h3 {
     text-align: center;
+}
+.right-main img {
+  width: 100%;
 }
 .left-top-main {
   color: white;
