@@ -45,6 +45,25 @@ button {
     width: 100%;
     margin: auto;
     padding: 165px 15px 15px;
-    background: url(favicon.png) center top no-repeat;
+    background: url(asset/favicon.png) center top no-repeat;
     background-size: 180px;
+}
+.splash .center h1 {
+    margin: 0 0 20px;
+    font-family: "Sigmar One",cursive;
+    font-size: 3em;
+    font-weight: normal;
+    color: #7879b9;
+    -webkit-text-stroke: 2px #4a5f6c;
+}
+.splash .center button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 1.25em;
+    line-height: 1em;
+    background-color: #7879b9;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 8px 0 #6869a1;
 }
